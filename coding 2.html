@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AkhdanVisiDigital | Membangun Masa Depan Digital Anda</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "inverse-on-surface": "#283044",
+                "surface-container-high": "#222a3d",
+                "secondary-fixed-dim": "#3cddc7",
+                "on-primary-fixed-variant": "#004f58",
+                "error": "#ffb4ab",
+                "on-primary-container": "#008e9f",
+                "on-secondary": "#003731",
+                "on-primary-fixed": "#001f24",
+                "on-tertiary": "#3e2d11",
+                "inverse-primary": "#006875",
+                "error-container": "#93000a",
+                "on-secondary-fixed": "#00201c",
+                "surface-bright": "#31394d",
+                "surface-dim": "#0b1326",
+                "secondary-container": "#03c6b2",
+                "tertiary": "#dec29a",
+                "surface-container-low": "#131b2e",
+                "on-background": "#dae2fd",
+                "primary-fixed-dim": "#00daf3",
+                "surface-variant": "#2d3449",
+                "surface": "#0b1326",
+                "on-error": "#690005",
+                "primary-fixed": "#9cf0ff",
+                "on-secondary-fixed-variant": "#005047",
+                "secondary-fixed": "#62fae3",
+                "tertiary-fixed-dim": "#dec29a",
+                "tertiary-container": "#231500",
+                "on-error-container": "#ffdad6",
+                "outline-variant": "#45464d",
+                "inverse-surface": "#dae2fd",
+                "tertiary-fixed": "#fcdeb5",
+                "on-tertiary-container": "#957d5a",
+                "secondary": "#44e2cd",
+                "surface-tint": "#00daf3",
+                "outline": "#909097",
+                "on-tertiary-fixed": "#271901",
+                "on-tertiary-fixed-variant": "#574425",
+                "surface-container-lowest": "#060e20",
+                "on-primary": "#00363d",
+                "surface-container-highest": "#2d3449",
+                "background": "#0b1326",
+                "on-surface-variant": "#c6c6cd",
+                "on-secondary-container": "#004d44",
+                "on-surface": "#dae2fd",
+                "primary-container": "#001b1f",
+                "primary": "#00daf3",
+                "surface-container": "#171f33"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "fontFamily": {
+                "headline": ["Manrope"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        .glass-nav {
+            background: rgba(11, 19, 38, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .neon-gradient {
+            background: linear-gradient(135deg, #00daf3 0%, #008e9f 100%);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary/30">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-[#0b1326]/80 backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-extrabold tracking-tighter text-[#dae2fd]">Akhdan Ziyad Fizanda</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Manrope'] uppercase tracking-wider text-sm font-bold text-[#c6c6cd] hover:text-[#00daf3] transition-colors duration-300" href="#about">Tentang Kami</a>
+<a class="font-['Manrope'] uppercase tracking-wider text-sm font-bold text-[#c6c6cd] hover:text-[#00daf3] transition-colors duration-300" href="#services">Layanan</a>
+<a class="font-['Manrope'] uppercase tracking-wider text-sm font-bold text-[#c6c6cd] hover:text-[#00daf3] transition-colors duration-300" href="#portfolio">Portfolio</a>
+<a class="font-['Manrope'] uppercase tracking-wider text-sm font-bold text-[#c6c6cd] hover:text-[#00daf3] transition-colors duration-300" href="#contact">Kontak</a>
+</div>
+<button class="bg-[#00daf3] text-[#00363d] px-6 py-2 rounded-xl font-bold font-['Manrope'] uppercase tracking-wider text-xs hover:scale-95 duration-200 ease-out">Hubungi Kami</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+<div class="absolute top-0 right-0 -z-10 w-2/3 h-full opacity-20 blur-[120px] rounded-full bg-primary/30 translate-x-1/2 -translate-y-1/4"></div>
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7">
+<span class="text-secondary font-semibold tracking-widest uppercase text-xs mb-4 block">Arsitek Digital Anda</span>
+<h1 class="text-5xl md:text-7xl font-extrabold text-on-surface leading-[1.1] tracking-tight mb-6">
+                    Membangun Masa Depan <span class="text-transparent bg-clip-text neon-gradient">Digital Anda</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+                    Kami menghadirkan solusi teknologi mutakhir yang menggabungkan estetika premium dengan fungsionalitas cerdas untuk mempercepat pertumbuhan bisnis Anda.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="neon-gradient text-on-primary px-8 py-4 rounded-xl font-bold text-base shadow-[0_10px_30px_rgba(0,218,243,0.3)] hover:scale-105 transition-transform">
+                        Mulai Konsultasi
+                    </button>
+<button class="border border-outline/20 bg-surface-container-high/40 text-primary px-8 py-4 rounded-xl font-bold text-base hover:bg-surface-container-high transition-colors">
+                        Lihat Proyek
+                    </button>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="aspect-square rounded-full border-[1px] border-primary/20 absolute -inset-4 animate-[spin_20s_linear_infinite]"></div>
+<img class="w-full h-auto rounded-full object-cover shadow-[0_0_80px_rgba(0,218,243,0.15)]" data-alt="Futuristic digital architecture visualization with glowing cyan neon lines and geometric structures in a dark immersive space" src="akhdan.JPEG.jpeg"/>
+</div>
+</div>
+</section>
+<!-- Tentang Kami Section -->
+<section class="py-24 bg-surface-container-low" id="about">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="space-y-6">
+<h2 class="text-3xl md:text-4xl font-extrabold text-on-surface">Mendefinisikan Ulang <br/>Standar Industri Digital</h2>
+<div class="h-1 w-20 neon-gradient rounded-full"></div>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                        VisiDigital lahir dari ambisi untuk merobohkan batasan antara teknologi dan manusia. Kami percaya bahwa setiap baris kode harus memiliki tujuan, dan setiap piksel harus bercerita.
+                    </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-high p-8 rounded-xl space-y-4">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="rocket_launch">rocket_launch</span>
+<h3 class="font-bold text-on-surface">Visi Kami</h3>
+<p class="text-on-surface-variant text-sm">Menjadi mercusuar inovasi digital global yang memberdayakan setiap ide menjadi realitas.</p>
+</div>
+<div class="bg-surface-container-high p-8 rounded-xl space-y-4 mt-8">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="track_changes">track_changes</span>
+<h3 class="font-bold text-on-surface">Misi Kami</h3>
+<p class="text-on-surface-variant text-sm">Memberikan keunggulan teknis dan desain yang tak tertandingi untuk setiap mitra kami.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Layanan Section -->
+<section class="py-24" id="services">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-5xl font-extrabold text-on-surface mb-4">Layanan Kami</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Solusi komprehensif untuk kebutuhan transformasi digital bisnis Anda.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Web Development -->
+<div class="group p-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 border border-outline/5">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center mb-8 group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="code">code</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Pengembangan Web</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Website berperforma tinggi, responsif, dan skalabel yang dibangun dengan teknologi terbaru.
+                    </p>
+<a class="text-primary font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Selengkapnya <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- UI/UX Design -->
+<div class="group p-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 border border-outline/5">
+<div class="w-14 h-14 rounded-lg bg-secondary/10 flex items-center justify-center mb-8 group-hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="palette">palette</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Desain UI/UX</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Pengalaman pengguna yang intuitif dengan estetika modern yang meningkatkan konversi dan loyalitas.
+                    </p>
+<a class="text-secondary font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Selengkapnya <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Digital Strategy -->
+<div class="group p-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high transition-all duration-300 border border-outline/5">
+<div class="w-14 h-14 rounded-lg bg-tertiary/10 flex items-center justify-center mb-8 group-hover:bg-tertiary/20 transition-colors">
+<span class="material-symbols-outlined text-tertiary text-3xl" data-icon="insights">insights</span>
+</div>
+<h3 class="text-xl font-bold text-on-surface mb-4">Strategi Digital</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                        Analisis data mendalam dan strategi pertumbuhan untuk memastikan bisnis Anda mendominasi pasar.
+                    </p>
+<a class="text-tertiary font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Selengkapnya <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section (Bento Grid) -->
+<section class="py-24 bg-surface-container-lowest" id="portfolio">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-xl">
+<h2 class="text-3xl md:text-5xl font-extrabold text-on-surface mb-4">Karya Terpilih</h2>
+<p class="text-on-surface-variant">Intip bagaimana kami membantu klien kami mencapai puncak potensi digital mereka.</p>
+</div>
+<button class="text-on-surface border-b-2 border-primary/40 pb-2 font-bold hover:text-primary transition-colors">Lihat Semua Proyek</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[700px]">
+<!-- Main Featured Project -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-2xl bg-surface-container-high">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="A sleek fintech mobile application interface shown on a premium smartphone mockup with vibrant data visualization charts and clean typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzL5Ljh_okNPIM7eUZQoiz0XNek74pYwxiv5gMo96JwJP9Zp0w8Qbx9zyYyHqQ1HquKn9Tu8fReciJtmJ9lqReh89Ko_Ykhq0QlQz_eedlQSKC9JVsu-qjEHHNYxUjW3ELdvY02OHVNqfgjfLK5Lg8uVFXHQNRrd5c_20iqD3O8dQu80pgFT48BbBGb40rg83TaGp7C1n6YOFNkWwQyN-jaPhiSl355MbIc_dxq71sNzQI2eQBujzSwij1kegsQgh3H-RPrr592pXg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-10">
+<span class="px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4 inline-block">Fintech</span>
+<h3 class="text-3xl font-bold text-on-surface mb-2">Nexus Mobile Banking</h3>
+<p class="text-on-surface-variant max-w-sm">Revolusi cara mengelola aset digital dengan interface yang mulus.</p>
+</div>
+</div>
+<!-- Side Project 1 -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-2xl bg-surface-container-high">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="Minimalist e-commerce website for a high-end fashion brand, featuring large editorial photography and elegant sans-serif fonts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzYBuhzviBGgHyX2TCvhdoGlHwnVbkd4K9NxHPnhZg3xDIxvlfCR6g1GQDu-NItpLem38feeV3DEkTGyCgiMb31FeBGwWyx-cbEkTmhCtAbUvD7YOKLD-EISrxvlt4amjzAkO5ZZ5gczh6T2Ccz-GIjzC-jKl-4suBrK6YXK8y-n-qiZcJ6DgSvGR8TxRVoQYBBtTf1tq_-vvXHLfr76tY1SHd0g7hgnBZ6ZEaqYVIlG6VSDkbKUCEhpzepiEo6ep-Nf1FWPO1Y-t1"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<span class="px-3 py-1 rounded-full bg-secondary/20 text-secondary text-xs font-bold uppercase tracking-widest mb-4 inline-block">E-Commerce</span>
+<h3 class="text-xl font-bold text-on-surface mb-1">Aura Fashion Store</h3>
+</div>
+</div>
+<!-- Bottom Side Project -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-2xl bg-surface-container-high">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="Modern corporate identity dashboard with complex analytical widgets, dark theme, and high-contrast neon accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6fu1KQcBp4j1i_guAvjUOhZTXMjAORE4FKiyY67IvfxCU_zsbLnZmkNU6jnN3yU0D3j_PS1m3W_OfP837ksL2OGeFDf3EpeioXRKYHxOs44HK-SEM-nEyhO8QAnKEGQr6V1X58b5qQXfmCoCZAWvxKhlX8vNmu0ueESgmZGle_w552vrTbtSZ6sR43_cdhdCNCzil5UHKppLJs89FxtukNZQF8lctQHfMVU9uDjPzQp6jRdHQTIyG_3eamTPDBs5ccEBLW7TeDCNx"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<span class="px-3 py-1 rounded-full bg-tertiary/20 text-tertiary text-xs font-bold uppercase tracking-widest mb-4 inline-block">SaaS</span>
+<h3 class="text-xl font-bold text-on-surface mb-1">Logix Data Dashboard</h3>
+</div>
+</div>
+<!-- Bottom Main Project -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-2xl bg-surface-container-high">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="Branding showcase for a tech startup including logo variations, color palettes, and digital touchpoints on a dark studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7lYnS74w2-qyY0TznMYJzKTJnIayF8MM3mToC_aAyA162fiK8zG1csdNdxKiB3MXmi7CNph6AwtURL41u8fb3xG-cabuqO0A7gQe16Qi6zXuCDlB8pGoW5DKfYLfeCdlpN_yjRYUZvwVReTbigcb-Qtu024Sa0VAc-B1vmByQPrFTLUPPFU5tOZpUMRyrRrR6NA3zhCxtHtO8Amh7XM3rAvBM1djVlrsvQGkhO-n20NqH3evy9vsicL9XJRWZi6LD_Rt71vEXSVVE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-0 left-0 p-10">
+<span class="px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4 inline-block">Branding</span>
+<h3 class="text-2xl font-bold text-on-surface mb-1">Stellar Identity System</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Kontak Section -->
+<section class="py-24 relative" id="contact">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-surface-container-high rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+<div class="md:w-1/2 p-12 bg-surface-bright flex flex-col justify-between">
+<div>
+<h2 class="text-3xl md:text-4xl font-extrabold text-on-surface mb-6">Ayo Berdiskusi</h2>
+<p class="text-on-surface-variant mb-12">Punya ide gila atau proyek besar? Mari kita wujudkan bersama. Tim kami siap membantu Anda 24/7.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase font-bold tracking-widest">Email</p>
+<p class="text-on-surface font-bold">akhdanfizanda@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase font-bold tracking-widest">Kantor</p>
+<p class="text-on-surface font-bold">Jalan datuk tabano, Bangkinang kota</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 flex gap-4">
+<div class="w-10 h-10 rounded-full border border-outline/20 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-on-surface text-lg" data-icon="language">language</span>
+</div>
+<div class="w-10 h-10 rounded-full border border-outline/20 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-on-surface text-lg" data-icon="share">share</span>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 p-12 bg-surface-container-high">
+<form class="space-y-6">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant ml-1">Nama Lengkap</label>
+<input class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-4 text-on-surface focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant ml-1">Email Bisnis</label>
+<input class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-4 text-on-surface focus:ring-2 focus:ring-primary outline-none transition-all" placeholder="john@perusahaan.com" type="email"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant ml-1">Pesan</label>
+<textarea class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-4 text-on-surface focus:ring-2 focus:ring-primary outline-none transition-all resize-none" placeholder="Ceritakan tentang proyek Anda..." rows="4"></textarea>
+</div>
+<button class="w-full neon-gradient py-4 rounded-xl text-on-primary font-bold text-lg shadow-lg hover:brightness-110 transition-all" type="submit">
+                            Kirim Pesan
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#131b2e] w-full py-12">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="text-xl font-bold text-[#dae2fd] mb-2">AkhdanVisiDigital</div>
+<p class="font-['Inter'] text-sm text-[#c6c6cd]">© 2026 AkhdanVisiDigital. Semua Hak Dilindungi.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['Inter'] text-sm text-[#c6c6cd] hover:text-[#44e2cd] transition-all opacity-80 hover:opacity-100" href="#">Kebijakan Privasi</a>
+<a class="font-['Inter'] text-sm text-[#c6c6cd] hover:text-[#44e2cd] transition-all opacity-80 hover:opacity-100" href="#">Syarat &amp; Ketentuan</a>
+<a class="font-['Inter'] text-sm text-[#c6c6cd] hover:text-[#44e2cd] transition-all opacity-80 hover:opacity-100" href="#">FAQ</a>
+</div>
+</div>
+</footer>
+</body></html>
